@@ -1,1 +1,0 @@
-import{a9 as n,a2 as i}from"./index-ac83fa3e.js";const r=(e,s)=>{s&&typeof s=="object"&&e.setOption(s);const t=()=>{e&&e.resize()};window.addEventListener("resize",t),n(()=>{window.removeEventListener("resize",t)}),i(()=>{window.removeEventListener("resize",t)})};export{r as u};
