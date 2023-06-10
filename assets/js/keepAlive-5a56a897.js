@@ -1,0 +1,1 @@
+import{a6 as a}from"./index-99d0a915.js";const t=a({id:"keepAlive",state:()=>({keepAliveName:[]}),actions:{async addKeepAliveName(e){!this.keepAliveName.includes(e)&&this.keepAliveName.push(e)},async removeKeepAliveName(e){this.keepAliveName=this.keepAliveName.filter(i=>i!==e)},async setKeepAliveName(e=[]){this.keepAliveName=e}}});export{t as u};
