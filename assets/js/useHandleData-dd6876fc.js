@@ -1,0 +1,1 @@
+import{aG as o,a5 as c}from"./index-f1e2d506.js";const l=(t,a={},e,s="warning")=>new Promise((r,n)=>{o.confirm(`是否${e}?`,"温馨提示",{confirmButtonText:"确定",cancelButtonText:"取消",type:s,draggable:!0}).then(async()=>{if(!await t(a))return n(!1);c({type:"success",message:`${e}成功!`}),r(!0)})});export{l as u};
