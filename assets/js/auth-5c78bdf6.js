@@ -1,1 +1,0 @@
-import{A,a3 as o}from"./index-39a7af8f.js";const e=t=>A.post(`${o}/getAuthorityList`,t),p=t=>A.post(`${o}/createAuthority`,t),i=t=>A.post(`${o}/deleteAuthority`,t),a=t=>A.post(`${o}/updateAuthority`,t);export{p as A,i as D,e as G,a as S};
