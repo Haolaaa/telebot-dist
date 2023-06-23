@@ -1,1 +1,0 @@
-import{A as t,$ as o,a0 as e}from"./index-9b3ddb4e.js";const p=s=>t.post(o+"/login",s),r=s=>t.post(`${o}/adminRegister`,s),a=s=>t.post(`${e}/getUserList`,s),n=s=>t.post(`${e}/deleteUser`,s),A=s=>t.post(`${e}/setUserInfo`,s);export{n as D,a as G,p as L,r as R,A as S};
